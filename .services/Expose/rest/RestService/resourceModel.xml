@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prgs:model xmlns:prgs="http://www.progress.com/caf/camel/component/prgrs" id="resourceModel">
+  <prgs:resource consumes="application/json" name="_getZipCode" path="/getZipCode" produces="application/json">
+    <prgs:operation consumes="application/json" idls="Rest/.services/src/AppServer/SI_getZipCode.pidl::com.progress.openedge.pdt.bpmbindings" name="SI_getZipCode..getZipCode" produces="application/json" verb="GET">
+      <prgs:param name="pais" type="QUERY"/>
+      <prgs:param name="codPos" type="QUERY"/>
+      <prgs:param name="lang" type="QUERY"/>
+    </prgs:operation>
+  </prgs:resource>
+</prgs:model>
