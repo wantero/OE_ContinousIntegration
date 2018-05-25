@@ -73,7 +73,9 @@ CLASS SI_getZipCode:
                 ttError.codError = 1
                 ttError.desError = "LANG no existe.".
             RETURN result.
-        END.        
+        END.
+        
+                
         
         CREATE ttZipCode.
         ASSIGN 
