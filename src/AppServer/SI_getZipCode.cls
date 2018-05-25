@@ -75,8 +75,6 @@ CLASS SI_getZipCode:
             RETURN result.
         END.
         
-                
-        
         CREATE ttZipCode.
         ASSIGN 
             ttZipCode.zipCode     = codPos
