@@ -40,7 +40,7 @@ CLASS SI_getZipCode:
         OUTPUT dataset dsZipCode,
         OUTPUT dataset dsError  ):
             
-            //Jenkins ---
+            //Jenkins -----
             
         DEFINE VARIABLE result AS INTEGER NO-UNDO INITIAL 200.
         
