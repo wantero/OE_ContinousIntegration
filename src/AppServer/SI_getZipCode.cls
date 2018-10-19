@@ -53,7 +53,7 @@ CLASS SI_getZipCode:
             CREATE ttError.
             ASSIGN 
                 ttError.codError = 1
-                ttError.desError = "PAIS no existe.".
+                ttError.desError = "PAIS no existe   .".
             RETURN result.
         END.
         
